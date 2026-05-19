@@ -1,0 +1,155 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  scroll-behavior:smooth;
+}
+
+body{
+  font-family:Arial, sans-serif;
+  background:#0f172a;
+  color:white;
+}
+
+.navbar{
+  background:#020617;
+}
+
+.navbar-brand{
+  font-weight:bold;
+  color:#38bdf8 !important;
+}
+
+.nav-link{
+  color:white !important;
+  margin-left:15px;
+}
+
+.nav-link:hover{
+  color:#38bdf8 !important;
+}
+
+/* Hero */
+.hero{
+  height:100vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  background:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+  url('https://images.unsplash.com/photo-1515879218367-8466d910aaa4?q=80&w=1600') center/cover;
+}
+
+.hero h1{
+  font-size:4rem;
+  font-weight:bold;
+}
+
+.hero span{
+  color:#38bdf8;
+}
+
+.hero p{
+  margin-top:15px;
+  font-size:1.2rem;
+}
+
+.btn-custom{
+  background:#38bdf8;
+  color:white;
+  border:none;
+  padding:12px 30px;
+  margin-top:20px;
+}
+
+.btn-custom:hover{
+  background:#0ea5e9;
+}
+
+/* Sections */
+section{
+  padding:80px 0;
+}
+
+.section-title{
+  text-align:center;
+  margin-bottom:50px;
+}
+
+.section-title h2{
+  color:#38bdf8;
+}
+
+/* About */
+.about-img img{
+  width:100%;
+  border-radius:15px;
+}
+
+/* Skills */
+.skill-box{
+  background:#1e293b;
+  padding:20px;
+  border-radius:10px;
+  text-align:center;
+  transition:0.3s;
+}
+
+.skill-box:hover{
+  transform:translateY(-10px);
+}
+
+/* Projects */
+.project-card{
+  background:#1e293b;
+  border:none;
+  border-radius:15px;
+  overflow:hidden;
+  transition:0.3s;
+}
+
+.project-card:hover{
+  transform:translateY(-10px);
+}
+
+.project-card img{
+  height:220px;
+  object-fit:cover;
+}
+
+/* Contact */
+.contact-form{
+  background:#1e293b;
+  padding:30px;
+  border-radius:15px;
+}
+
+.form-control{
+  background:#0f172a;
+  border:none;
+  color:white;
+}
+
+.form-control:focus{
+  background:#0f172a;
+  color:white;
+  box-shadow:none;
+  border:1px solid #38bdf8;
+}
+
+/* Footer */
+footer{
+  background:#020617;
+  text-align:center;
+  padding:20px;
+}
+
+.social-icons a{
+  color:white;
+  margin:0 10px;
+  font-size:1.5rem;
+}
+
+.social-icons a:hover{
+  color:#38bdf8;
+}
